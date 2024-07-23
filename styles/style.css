@@ -5,7 +5,7 @@ body {
 .header {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  padding: 92px 24px 96px 24px;
+  padding: 95px 24px 96px 24px;
   color: #000;
 }
 
