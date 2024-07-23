@@ -57,7 +57,7 @@ body {
   height: 757px;
   padding: 95px 0 179px;
   color: #fff;
-  background-image: url(/images/cover.jpg);
+  background-image: url(./images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -179,7 +179,7 @@ body {
   align-items: center;
   height: 100%;
   overflow: hidden;
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(./images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -193,7 +193,7 @@ body {
   align-items: center;
   height: 100%;
   overflow: hidden;
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(./images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -207,7 +207,7 @@ body {
   align-items: center;
   height: 100%;
   overflow: hidden;
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(./images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
