@@ -37,7 +37,7 @@ body {
 
 .address {
   display: grid;
-  justify-content: center; 
+  justify-content: center;
   align-self: center;
   font-weight: 400;
   font-size: 18px;
