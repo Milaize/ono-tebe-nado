@@ -54,8 +54,8 @@ body {
 .cover {
   position: relative;
   z-index: 0;
-  height: 757px;
-  padding: 165px 0 179px;
+  min-height: 757px;
+  padding-top: 165px;
   color: #fff;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
@@ -115,11 +115,16 @@ body {
   letter-spacing: 0em;
 }
 
+.cover__description {
+  display: flex;
+  align-items: flex-end;
+}
+
 .cover__description-text {
   position: relative;
   z-index: 2;
-  display: inline-block;
-  margin: 0 76px 62px 78px;
+  margin-bottom: 62px;
+  margin-left: 78px;
   color: #fff;
   font-size: 22px;
   line-height: 28px;
@@ -130,16 +135,14 @@ body {
 .bet-button {
   position: relative;
   z-index: 2;
-  display: inline-block;
-  margin-top: 135px;
-  margin-bottom: 51px;
+  justify-self: end;
+  margin: 135px 50px 51px 78px;
   border: 1px solid currentColor;
   padding: 12px 32px 11px 31px;
   color: #fff;
   font-family: Raleway, sans-serif;
   font-size: 22px;
   line-height: 26px;
-  text-align: right;
   text-transform: uppercase;
   background: transparent;
 }
@@ -166,12 +169,6 @@ body {
 }
 
 .lots__card-list-item {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  justify-content: center;
-  align-items: center;
   width: 334px;
   min-height: 563px;
 }
@@ -183,27 +180,6 @@ body {
   text-decoration: none;
 }
 
-.card_type_film {
-  height: 100%;
-  background-image: url(../images/card-lot-01.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.card_type_book {
-  height: 100%;
-  background-image: url(../images/card-lot-02.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.card_type_picture {
-  height: 100%;
-  background-image: url(../images/card-lot-03.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
 .card {
   position: relative;
   z-index: 2;
@@ -211,9 +187,25 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+}
+
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .card__title {
+ position: relative;
+ z-index: 2;
  margin-top: 51px;
  margin-right: 40px;
  margin-left: 40px;
@@ -225,6 +217,8 @@ body {
 }
 
 .card__text {
+ position: relative;
+ z-index: 2;
  margin-right: 40px;
  margin-bottom: 48px;
  margin-left: 40px;
