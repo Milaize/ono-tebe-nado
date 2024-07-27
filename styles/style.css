@@ -169,7 +169,13 @@ body {
 }
 
 .lots__card-list-item {
-  width: 334px;
+  position: relative; 
+  display: flex; 
+  flex-direction: column; 
+  flex-grow: 1; 
+  justify-content: center; 
+  align-items: center; 
+  width: 334px; 
   min-height: 563px;
 }
 
